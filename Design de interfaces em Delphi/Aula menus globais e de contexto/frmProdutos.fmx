@@ -1,0 +1,38 @@
+inherited FormProdutos: TFormProdutos
+  Caption = 'FormPadrao1'
+  DesignerMasterStyle = 0
+  inherited LayoutMain: TLayout
+    inherited Layout2: TLayout
+      inherited Layout3: TLayout
+        object Label1: TLabel
+          Align = Client
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 15.000000000000000000
+          Size.Width = 590.000000000000000000
+          Size.Height = 57.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 15.000000000000000000
+          Text = 'Cadastro de produtos'
+          TabOrder = 0
+        end
+      end
+      inherited Layout5: TLayout
+        inherited TabControl1: TTabControl
+          Sizes = (
+            456s
+            425s
+            456s
+            425s)
+          inherited TabItem1: TTabItem
+            ExplicitSize.cx = 69.000000000000000000
+            ExplicitSize.cy = 26.000000000000000000
+          end
+          inherited TabItem2: TTabItem
+            ExplicitSize.cx = 69.000000000000000000
+            ExplicitSize.cy = 26.000000000000000000
+          end
+        end
+      end
+    end
+  end
+end

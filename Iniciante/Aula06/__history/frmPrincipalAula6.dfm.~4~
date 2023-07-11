@@ -1,0 +1,121 @@
+object frmPrincipalAula06: TfrmPrincipalAula06
+  Left = 0
+  Top = 0
+  Caption = 'Aula 06'
+  ClientHeight = 366
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnl1: TPanel
+    Left = 0
+    Top = 0
+    Width = 635
+    Height = 33
+    Align = alTop
+    BevelOuter = bvNone
+    Caption = 'pnl1'
+    TabOrder = 0
+    object edt1: TEdit
+      Left = 0
+      Top = 0
+      Width = 560
+      Height = 33
+      Align = alClient
+      TabOrder = 0
+      OnChange = edt1Change
+      OnClick = edt1Click
+      OnDblClick = edt1DblClick
+      ExplicitHeight = 202
+    end
+    object btn1: TButton
+      Left = 560
+      Top = 0
+      Width = 75
+      Height = 33
+      Align = alRight
+      Caption = 'btn1'
+      TabOrder = 1
+      OnClick = btn1Click
+      ExplicitLeft = 566
+      ExplicitTop = -6
+    end
+  end
+  object Memo1: TMemo
+    Left = 0
+    Top = 33
+    Width = 464
+    Height = 333
+    Align = alClient
+    Color = clGray
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+    ExplicitWidth = 409
+  end
+  object Panel1: TPanel
+    Left = 464
+    Top = 33
+    Width = 171
+    Height = 333
+    Align = alRight
+    TabOrder = 2
+    ExplicitLeft = 470
+    ExplicitTop = 39
+    object Button1: TButton
+      Left = 1
+      Top = 1
+      Width = 169
+      Height = 48
+      Align = alTop
+      Caption = 'Informa'#231#227'o'
+      TabOrder = 0
+      OnClick = Button1Click
+      ExplicitWidth = 183
+    end
+    object Button2: TButton
+      Left = 1
+      Top = 49
+      Width = 169
+      Height = 48
+      Align = alTop
+      Caption = 'Erro'
+      TabOrder = 1
+      OnClick = Button2Click
+      ExplicitLeft = 6
+      ExplicitTop = 55
+    end
+    object Button3: TButton
+      Left = 1
+      Top = 97
+      Width = 169
+      Height = 48
+      Align = alTop
+      Caption = 'Alerta'
+      TabOrder = 2
+      OnClick = Button3Click
+    end
+    object Button4: TButton
+      Left = 1
+      Top = 145
+      Width = 169
+      Height = 48
+      Align = alTop
+      Caption = 'Intera'#231#227'o'
+      TabOrder = 3
+      OnClick = Button4Click
+      ExplicitLeft = 6
+      ExplicitTop = 151
+    end
+  end
+end

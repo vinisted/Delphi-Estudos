@@ -1,0 +1,58 @@
+object frmPrincipalAula06: TfrmPrincipalAula06
+  Left = 0
+  Top = 0
+  Caption = 'Aula 06'
+  ClientHeight = 366
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnl1: TPanel
+    Left = 0
+    Top = 0
+    Width = 635
+    Height = 41
+    BevelOuter = bvNone
+    Caption = 'pnl1'
+    TabOrder = 0
+    object edt1: TEdit
+      Left = 0
+      Top = 0
+      Width = 560
+      Height = 41
+      Align = alClient
+      TabOrder = 0
+      Text = 'edt1'
+      ExplicitLeft = 1
+      ExplicitTop = 1
+      ExplicitWidth = 558
+      ExplicitHeight = 224
+    end
+    object btn1: TButton
+      Left = 560
+      Top = 0
+      Width = 75
+      Height = 41
+      Align = alRight
+      Caption = 'btn1'
+      TabOrder = 1
+      ExplicitLeft = 376
+      ExplicitTop = 38
+      ExplicitHeight = 25
+    end
+  end
+  object Edit1: TEdit
+    Left = 240
+    Top = 208
+    Width = 121
+    Height = 21
+    TabOrder = 1
+    Text = 'Edit1'
+  end
+end

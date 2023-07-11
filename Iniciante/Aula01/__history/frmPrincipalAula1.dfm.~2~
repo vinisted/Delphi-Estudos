@@ -1,0 +1,82 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 432
+  ClientWidth = 781
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesigned
+  DesignSize = (
+    781
+    432)
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 36
+    Top = 41
+    Width = 36
+    Height = 13
+    Anchors = []
+    Caption = 'Usu'#225'rio'
+    ExplicitLeft = 35
+    ExplicitTop = 47
+  end
+  object Label2: TLabel
+    Left = 42
+    Top = 83
+    Width = 30
+    Height = 13
+    Anchors = []
+    Caption = 'Senha'
+    ExplicitLeft = 41
+    ExplicitTop = 94
+  end
+  object Button1: TButton
+    Left = 34
+    Top = 135
+    Width = 119
+    Height = 34
+    Anchors = []
+    Caption = 'Ok'
+    TabOrder = 0
+    ExplicitLeft = 32
+    ExplicitTop = 154
+  end
+  object Edit1: TEdit
+    Left = 97
+    Top = 38
+    Width = 189
+    Height = 25
+    Anchors = []
+    TabOrder = 1
+    ExplicitLeft = 93
+    ExplicitTop = 44
+  end
+  object Edit2: TEdit
+    Left = 97
+    Top = 83
+    Width = 189
+    Height = 25
+    Anchors = []
+    TabOrder = 2
+    ExplicitLeft = 93
+    ExplicitTop = 95
+  end
+  object Button2: TButton
+    Left = 170
+    Top = 135
+    Width = 119
+    Height = 34
+    Anchors = []
+    Caption = 'cancelar'
+    TabOrder = 3
+    ExplicitLeft = 166
+    ExplicitTop = 154
+  end
+end
