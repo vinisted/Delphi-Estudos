@@ -1,0 +1,68 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 591
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 591.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object ToolBar1: TToolBar
+      Size.Width = 640.000000000000000000
+      Size.Height = 73.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object SpeedButton1: TSpeedButton
+        Align = Left
+        Size.Width = 80.000000000000000000
+        Size.Height = 73.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'drawertoolbutton'
+        Text = 'SpeedButton1'
+      end
+    end
+    object Layout2: TLayout
+      Align = Client
+      Size.Width = 640.000000000000000000
+      Size.Height = 518.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Rectangle1: TRectangle
+        Align = Client
+        Size.Width = 640.000000000000000000
+        Size.Height = 518.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object MultiView1: TMultiView
+        MasterButton = SpeedButton1
+        Mode = Drawer
+        NavigationPaneOptions.CollapsedWidth = 121.000000000000000000
+        Size.Width = 169.000000000000000000
+        Size.Height = 518.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        inline Frame21: TFrame2
+          Align = Client
+          Size.Width = 169.000000000000000000
+          Size.Height = 518.000000000000000000
+          Size.PlatformDefault = False
+          inherited Layout1: TLayout
+            Size.Width = 169.000000000000000000
+            Size.Height = 518.000000000000000000
+            inherited GridPanelLayout1: TGridPanelLayout
+              Size.Width = 169.000000000000000000
+              Size.Height = 518.000000000000000000
+            end
+          end
+        end
+      end
+    end
+  end
+end

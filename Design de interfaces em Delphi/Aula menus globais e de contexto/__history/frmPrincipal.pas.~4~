@@ -1,0 +1,49 @@
+unit frmPrincipal;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.ListBox,
+  FMX.Layouts, FMX.Objects, FMX.Controls.Presentation, FMX.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    ToolBar1: TToolBar;
+    Rectangle1: TRectangle;
+    Layout1: TLayout;
+    Layout2: TLayout;
+    ListBox1: TListBox;
+    LayoutMain: TLayout;
+    ListBoxItem1: TListBoxItem;
+    Rectangle2: TRectangle;
+    ListBoxItem2: TListBoxItem;
+    ListBoxItem3: TListBoxItem;
+    procedure ListBoxItem1Click(Sender: TObject);
+    procedure ListBoxItem2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.fmx}
+
+uses ClasseLoad, frmPadrao, frmProdutos;
+
+procedure TForm1.ListBoxItem1Click(Sender: TObject);
+begin
+  TClasseLoad.LoadLayout(LayoutMain, TFormPadrao);
+end;
+
+procedure TForm1.ListBoxItem2Click(Sender: TObject);
+begin
+  TClasseLoad.LoadLayout(LayoutMain, TFormProdutos);
+end;
+
+end.

@@ -15,7 +15,6 @@ type
     Rectangle1: TRectangle;
     ShadowEffect1: TShadowEffect;
     Layout2: TLayout;
-    Layout3: TLayout;
     MultiView1: TMultiView;
     Rectangle2: TRectangle;
     SpeedButton1: TSpeedButton;
@@ -27,8 +26,6 @@ type
     ListBox1: TListBox;
     ListBoxItem1: TListBoxItem;
     Layout6: TLayout;
-    Layout7: TLayout;
-    Rectangle4: TRectangle;
     B: TGridPanelLayout;
     Layout8: TLayout;
     Rectangle5: TRectangle;
@@ -49,11 +46,8 @@ type
     Layout12: TLayout;
     Layout13: TLayout;
     GridPanelLayout1: TGridPanelLayout;
-    Layout14: TLayout;
-    Rectangle9: TRectangle;
     Layout15: TLayout;
     Rectangle10: TRectangle;
-    ShadowEffect6: TShadowEffect;
     ShadowEffect7: TShadowEffect;
     GridPanelLayout2: TGridPanelLayout;
     Layout16: TLayout;
@@ -62,7 +56,13 @@ type
     Layout17: TLayout;
     Rectangle12: TRectangle;
     ShadowEffect9: TShadowEffect;
-    SpeedButton2: TSpeedButton;
+    Layout7: TLayout;
+    Rectangle4: TRectangle;
+    Layout14: TLayout;
+    Rectangle9: TRectangle;
+    ShadowEffect6: TShadowEffect;
+    Layout3: TLayout;
+    Rectangle13: TRectangle;
     procedure SpeedButton2Click(Sender: TObject);
   private
     { Private declarations }

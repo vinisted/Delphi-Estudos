@@ -1,0 +1,86 @@
+unit frmPrincipal;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.MultiView,
+  FMX.Effects, FMX.Objects, FMX.Controls.Presentation, FMX.StdCtrls, FMX.Layouts,
+  FMX.ListBox;
+
+type
+  TForm1 = class(TForm)
+    Layout1: TLayout;
+    ToolBar1: TToolBar;
+    Rectangle1: TRectangle;
+    ShadowEffect1: TShadowEffect;
+    Layout2: TLayout;
+    MultiView1: TMultiView;
+    Rectangle2: TRectangle;
+    SpeedButton1: TSpeedButton;
+    Layout4: TLayout;
+    Layout5: TLayout;
+    Image1: TImage;
+    Rectangle3: TRectangle;
+    Circle1: TCircle;
+    ListBox1: TListBox;
+    ListBoxItem1: TListBoxItem;
+    Layout6: TLayout;
+    B: TGridPanelLayout;
+    Layout8: TLayout;
+    Rectangle5: TRectangle;
+    ShadowEffect2: TShadowEffect;
+    Circle2: TCircle;
+    Layout9: TLayout;
+    Rectangle6: TRectangle;
+    ShadowEffect3: TShadowEffect;
+    Circle3: TCircle;
+    Layout10: TLayout;
+    Rectangle7: TRectangle;
+    ShadowEffect4: TShadowEffect;
+    Circle4: TCircle;
+    Layout11: TLayout;
+    Rectangle8: TRectangle;
+    ShadowEffect5: TShadowEffect;
+    Circle5: TCircle;
+    Layout12: TLayout;
+    Layout13: TLayout;
+    GridPanelLayout1: TGridPanelLayout;
+    Layout15: TLayout;
+    Rectangle10: TRectangle;
+    ShadowEffect7: TShadowEffect;
+    GridPanelLayout2: TGridPanelLayout;
+    Layout16: TLayout;
+    Rectangle11: TRectangle;
+    ShadowEffect8: TShadowEffect;
+    Layout17: TLayout;
+    Rectangle12: TRectangle;
+    ShadowEffect9: TShadowEffect;
+    SpeedButton2: TSpeedButton;
+    Layout7: TLayout;
+    Rectangle4: TRectangle;
+    Layout14: TLayout;
+    Rectangle9: TRectangle;
+    ShadowEffect6: TShadowEffect;
+    Layout3: TLayout;
+    Rectangle13: TRectangle;
+    procedure SpeedButton2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.fmx}
+
+procedure TForm1.SpeedButton2Click(Sender: TObject);
+begin
+  Close;
+end;
+
+end.

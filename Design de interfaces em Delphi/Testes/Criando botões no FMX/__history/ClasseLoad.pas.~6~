@@ -1,0 +1,42 @@
+unit ClasseLoad;
+
+interface
+
+uses
+  System.Classes, FMX.Layouts, FMX.Forms;
+
+type
+  TclasseLoad = class
+    class var FFormLayout: TForm;
+    class procedure LoadLayout(const LayoutMain: TLayout; const AFormClass: TComponentClass);
+    class procedure DestroyForm;
+  end;
+
+implementation
+
+{ TclasseLoad }
+
+class procedure TclasseLoad.LoadLayout(const LayoutMain: TLayout; const AFormClass: TComponentClass);
+var
+  LComponent: TComponent;
+begin
+  Application.CreateForm(AFormClass, FFormLayout);
+  LComponent := FFormLayout.FindComponent('LayoutMain');
+
+  if Assigned(LComponent) then
+  begin
+    LayoutMain.AddObject(TLayout(LComponent));
+  end;
+end;
+
+class procedure TclasseLoad.DestroyForm;
+begin
+  if Assigned(FFormLayout) then
+  begin
+    FFormLayout.Close;
+    FFormLayout.DisposeOf;
+  end;
+end;
+
+end.
+

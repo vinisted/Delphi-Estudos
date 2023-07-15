@@ -1,0 +1,48 @@
+unit Unit4;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Effects,
+  FMX.Objects, FMX.StdCtrls, FMX.Controls.Presentation, FMX.Layouts;
+
+type
+  TForm4 = class(TForm)
+    LayoutMain: TLayout;
+    Rectangle1: TRectangle;
+    Rectangle2: TRectangle;
+    Layout3: TLayout;
+    Rectangle3: TRectangle;
+    Layout1: TLayout;
+    SpeedButton1: TSpeedButton;
+    Layout2: TLayout;
+    Label1: TLabel;
+    Layout4: TLayout;
+    Layout5: TLayout;
+    Image1: TImage;
+    ShadowEffect1: TShadowEffect;
+    Label2: TLabel;
+    procedure SpeedButton1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form4: TForm4;
+
+implementation
+
+uses
+  ClasseLoad;
+
+{$R *.fmx}
+
+procedure TForm4.SpeedButton1Click(Sender: TObject);
+begin
+  TclasseLoad.DestroyForm;
+end;
+
+end.
