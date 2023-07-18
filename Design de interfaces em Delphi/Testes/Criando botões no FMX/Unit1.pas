@@ -41,6 +41,8 @@ var
 implementation
 
 {$R *.fmx}
+{$R *.XLgXhdpiTb.fmx ANDROID}
+{$R *.NmXhdpiPh.fmx ANDROID}
 
 procedure TForm1.SpeedButton1Click(Sender: TObject);
 begin

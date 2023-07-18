@@ -1,0 +1,61 @@
+unit Unit1;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.ListBox,
+  FMX.Layouts, FMX.MultiView, FMX.StdCtrls, FMX.Objects,
+  FMX.Controls.Presentation, ClasseLoad, Unit2, Unit3, Unit4, FMX.Effects;
+
+type
+  TForm1 = class(TForm)
+    Layout1: TLayout;
+    ToolBar1: TToolBar;
+    Rectangle3: TRectangle;
+    SpeedButton4: TSpeedButton;
+    LayoutMain: TLayout;
+    MultiView1: TMultiView;
+    Rectangle2: TRectangle;
+    ListBox1: TListBox;
+    ListBoxItem1: TListBoxItem;
+    SpeedButton1: TSpeedButton;
+    ListBoxItem2: TListBoxItem;
+    SpeedButton2: TSpeedButton;
+    ListBoxItem3: TListBoxItem;
+    SpeedButton3: TSpeedButton;
+    StyleBook1: TStyleBook;
+    procedure SpeedButton1Click(Sender: TObject);
+    procedure SpeedButton2Click(Sender: TObject);
+    procedure SpeedButton3Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.fmx}
+{$R *.SmXhdpiPh.fmx ANDROID}
+{$R *.NmXhdpiPh.fmx ANDROID}
+
+procedure TForm1.SpeedButton1Click(Sender: TObject);
+begin
+  TClasseLoad.LoadLayout(LayoutMain, Tform3);
+end;
+
+procedure TForm1.SpeedButton2Click(Sender: TObject);
+begin
+  TClasseLoad.LoadLayout(LayoutMain, Tform2);
+end;
+
+procedure TForm1.SpeedButton3Click(Sender: TObject);
+begin
+  TClasseLoad.LoadLayout(LayoutMain, Tform4);
+end;
+
+end.

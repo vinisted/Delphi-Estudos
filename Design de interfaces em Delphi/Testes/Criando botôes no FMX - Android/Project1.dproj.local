@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/07/17 23:44:10.000.093,=C:\Users\Windows7\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/17 23:46:35.000.285,=C:\Users\Windows7\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/07/17 23:48:31.000.614,=C:\Users\Windows7\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2023/07/17 23:49:02.000.540,=C:\Users\Windows7\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2023/07/17 23:49:16.000.777,=C:\Users\Windows7\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2023/07/17 23:50:57.000.082,C:\Users\Windows7\Documents\Embarcadero\Studio\Projects\Unit5.pas=D:\PASTAS\Github\Delphi-Estudos\Design de interfaces em Delphi\Testes\Criando botôes no FMX - Android\ClasseLoad.pas</Transaction>
+    <Transaction>2023/07/17 23:51:00.000.331,C:\Users\Windows7\Documents\Embarcadero\Studio\Projects\Unit2.fmx=D:\PASTAS\Github\Delphi-Estudos\Design de interfaces em Delphi\Testes\Criando botôes no FMX - Android\Unit2.fmx</Transaction>
+    <Transaction>2023/07/17 23:51:00.000.331,C:\Users\Windows7\Documents\Embarcadero\Studio\Projects\Unit2.pas=D:\PASTAS\Github\Delphi-Estudos\Design de interfaces em Delphi\Testes\Criando botôes no FMX - Android\Unit2.pas</Transaction>
+    <Transaction>2023/07/17 23:51:02.000.941,C:\Users\Windows7\Documents\Embarcadero\Studio\Projects\Unit4.fmx=D:\PASTAS\Github\Delphi-Estudos\Design de interfaces em Delphi\Testes\Criando botôes no FMX - Android\Unit4.fmx</Transaction>
+    <Transaction>2023/07/17 23:51:02.000.941,C:\Users\Windows7\Documents\Embarcadero\Studio\Projects\Unit4.pas=D:\PASTAS\Github\Delphi-Estudos\Design de interfaces em Delphi\Testes\Criando botôes no FMX - Android\Unit4.pas</Transaction>
+    <Transaction>2023/07/17 23:51:05.000.316,C:\Users\Windows7\Documents\Embarcadero\Studio\Projects\Unit3.pas=D:\PASTAS\Github\Delphi-Estudos\Design de interfaces em Delphi\Testes\Criando botôes no FMX - Android\Unit3.pas</Transaction>
+    <Transaction>2023/07/17 23:51:05.000.316,C:\Users\Windows7\Documents\Embarcadero\Studio\Projects\Unit3.fmx=D:\PASTAS\Github\Delphi-Estudos\Design de interfaces em Delphi\Testes\Criando botôes no FMX - Android\Unit3.fmx</Transaction>
+    <Transaction>2023/07/17 23:51:07.000.722,C:\Users\Windows7\Documents\Embarcadero\Studio\Projects\Unit1.fmx=D:\PASTAS\Github\Delphi-Estudos\Design de interfaces em Delphi\Testes\Criando botôes no FMX - Android\Unit1.fmx</Transaction>
+    <Transaction>2023/07/17 23:51:07.000.722,C:\Users\Windows7\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\PASTAS\Github\Delphi-Estudos\Design de interfaces em Delphi\Testes\Criando botôes no FMX - Android\Unit1.pas</Transaction>
+    <Transaction>2023/07/17 23:51:10.000.316,C:\Users\Windows7\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\PASTAS\Github\Delphi-Estudos\Design de interfaces em Delphi\Testes\Criando botôes no FMX - Android\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

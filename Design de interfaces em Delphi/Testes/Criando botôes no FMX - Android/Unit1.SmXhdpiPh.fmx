@@ -1,0 +1,45 @@
+inherited Form1_SmXhdpiPh: TForm1_SmXhdpiPh
+  ClientHeight = 375
+  ClientWidth = 250
+  DesignerMasterStyle = 3
+  inherited Layout1: TLayout
+    Size.Width = 250.000000000000000000
+    Size.Height = 375.000000000000000000
+    inherited ToolBar1: TToolBar
+      Size.Width = 250.000000000000000000
+      inherited Rectangle3: TRectangle
+        Size.Width = 250.000000000000000000
+      end
+    end
+    inherited LayoutMain: TLayout
+      Size.Width = 250.000000000000000000
+      Size.Height = 327.000000000000000000
+      inherited MultiView1: TMultiView
+        Size.Height = 327.000000000000000000
+        inherited Rectangle2: TRectangle
+          Size.Height = 327.000000000000000000
+        end
+        inherited ListBox1: TListBox
+          Size.Height = 327.000000000000000000
+          Viewport.Width = 113.000000000000000000
+          Viewport.Height = 327.000000000000000000
+          inherited ListBoxItem1: TListBoxItem
+            inherited SpeedButton1: TSpeedButton
+              OnClick = nil
+            end
+          end
+          inherited ListBoxItem2: TListBoxItem
+            inherited SpeedButton2: TSpeedButton
+              OnClick = nil
+            end
+          end
+          inherited ListBoxItem3: TListBoxItem
+            inherited SpeedButton3: TSpeedButton
+              OnClick = nil
+            end
+          end
+        end
+      end
+    end
+  end
+end
